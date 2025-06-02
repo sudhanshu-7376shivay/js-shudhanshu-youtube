@@ -10,10 +10,10 @@ const Jsuser = {
     lastLoginDays: ["Mondays","Saturday"]
 
  }
-// console.log(Jsuser.email);
-// console.log(Jsuser["email"]);
-// console.log(Jsuser["email"]);
-// console.log(Jsuser["email"]);
+console.log(Jsuser.email);
+console.log(Jsuser["email"]);
+console.log(Jsuser["email"]);
+console.log(Jsuser["email"]);
 
 Jsuser.email = "sudhanshu@chatgpt.com"
 Object.freeze(Jsuser)
