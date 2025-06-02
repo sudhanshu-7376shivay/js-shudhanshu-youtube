@@ -42,13 +42,13 @@ let userTwo = userOne
     console.log(`hello my name is ${name()} and my repocount is ${repoCount}`)
 
     const gameName = new String("ShiVKuma");
-    // console.log(gameName[0]);
+    console.log(gameName[0]);
     console.log(gameName.length);
     console.log(gameName.toUpperCase());
     console.log(gameName.toLowerCase());
     console.log(gameName.charAt(2));
-    // const newstring = gameName.substring(8,4)
-    // console.log(newString);
+    const newstring = gameName.substring(8,4)
+    console.log(newString);
 
     const url = "http://sudhanshu.com/sudhanshu%30mishra"
     console.log(url.replace('%30','-'))
@@ -72,10 +72,10 @@ console.log(myHeroes[2]);
 // myArr.unshift(9);
 myArr.shift()
 
-// console.log(myArr.includes(9));
-// console.log(myArr.indexOf(9));
+console.log(myArr.includes(9));
+console.log(myArr.indexOf(9));
 
-// console.log(myArr);
+console.log(myArr);
 const newArr = myArr.join("->")
 
 console.log(myArr);
