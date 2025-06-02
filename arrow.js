@@ -1,33 +1,33 @@
-// const  user ={
-//     username: "sudhanshu",
-//     price: 999,
+const  user ={
+    username: "sudhanshu",
+    price: 999,
 
-//     welcomeMessage: function(){
-//         console.log(`${this.username} , welcome to website`);
-//         console.log()
-//     }
+    welcomeMessage: function(){
+        console.log(`${this.username} , welcome to website`);
+        console.log()
+    }
 
 
-// }
+}
 
-// user.welcomeMessage()
-// user.username = "shiv"
-// user.welcomeMessage()
+user.welcomeMessage()
+user.username = "shiv"
+user.welcomeMessage()
 
-// console.log(this)
+console.log(this)
 
-// function chai(){
-//     let username = "sudhanshu"
-//     console.log(this.username);
-// }
+function chai(){
+    let username = "sudhanshu"
+    console.log(this.username);
+}
 
-// const chhai = () => {
-//     let username = "sudhanshu"
-//     console.log(this.username);
+const chhai = () => {
+    let username = "sudhanshu"
+    console.log(this.username);
 
-// }
+}
 
-// chhai()
+chhai()
 
 const addTwo = (num1, num2) => {
     return  num1 + num2
